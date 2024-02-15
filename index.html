@@ -3,9 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Isaac's Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    
-</body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1> <img src="images/logo1.jpg" alt="Your Picture" class="img-fluid"></h1>
+        <p>A simple website about me </p>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#schedule">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#favorites">Favorites</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hobbies">Hobbies</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container mt-4">
+        <div id="about" class="mb-4">
+            <h2>About Me</h2>
+            <p><strong>Name:</strong> Isaac Huntington</p>
+            <p><strong>Major:</strong> Computer science</p>
+            <img src="images/profile.jpg" alt="Your Picture" class="img-fluid">
+            <p>
+                I am senior in computer science with an empahsis in software engineering. I want to be a software architect or cloud architect.
+                Working hopefully somewhere in the western United States.
+            </p>
+        </div>
+        <div id="schedule" class="mb-4">
+            <h2>Schedule</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Classes</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>CSCI 313</td>
+                        <td>10:00 AM - 10:50 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>CSCI 445, CSCI 336, CSCI 467</td>
+                        <td>11:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Wedensday</td>
+                        <td>CSCI 313</td>
+                        <td>10:00 AM - 10:50 AM</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>CSCI 445, CSCI 336, CSCI 467</td>
+                        <td>11:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>CSCI 313</td>
+                        <td>10:00 AM - 10:50 AM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="favorites" class="mb-4">
+            <h2>Favorites</h2>
+            <h3>Favorite Sites</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+            </ul>
+            <h3>Favorite Movies or Books</h3>
+            <ul>
+                <li>Saving Private Ryan</li>
+                <li>Blackhawk Down</li>
+            </ul>
+        </div>
+        <div id="hobbies" class="mb-4">
+            <h2>Hobbies</h2>
+            <ol>
+                <li>Mountain Biking</li>
+                <li>Hiking</li>
+                <li>Fishing</li>
+            </ol>
+        </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 About Isaac. All rights reserved.</p>
+    </footer>
+
 </html>
